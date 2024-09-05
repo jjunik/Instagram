@@ -5,19 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 </head>
 <body>
-    <img src = "image/KakaoTalk_20240903_121031083.png" width="150px">
-    <input type="search" value="검색">
+    <div id="top">
+        <div id="top_img">
+        <img src = "image/KakaoTalk_20240903_121031083.png">
+        </div>
+        <input type="search" value="🔍검색">
+        <div>
+            <i class="fas fa-home"></i>
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
     <div id="profile">
         <div id="profile_pic">
         <img src = "image/KakaoTalk_20240903_121500922.jpg" class="circle_pic">
         </div>
-        <div>
+        <div id="profile_info">
         <!--태그는 줄바꿈 기능이 있다.-->
         <!-- <p> 태그는 문단을 나누는 태그 paragraph의 약자
         p태그는 줄바꿈을 표한하는 block이라는 속성이 있기 때문에 옆에 글이 올 수 없다.-->
-            <h2>half_bottle</h2>
+           <div id="id">
+            half_bottle<i class="fas fa-cog"></i>
+        </div>
             <button>프로필 편집</button>
 </div>
 </div>
@@ -36,7 +49,7 @@
         </p>
 </div>
 
-<div>
+<div id="highlight_area">
     <div class="highlight">
         <div id="circle_high">
             <img src = "image/고1.jpg" class="circle_pic">
@@ -55,6 +68,10 @@
             😊
         </div>
     </div>
+    <div>
+
+
+    </div>
 </div>
 
 <div id="stat_bar">
@@ -72,7 +89,23 @@
         </div>
 </div>    
 
-<div> 아이콘 자리 </div>
+<div id="sub_icons">
+    <div class="selected">
+        <i class="fas fa-border-all"></i>
+    </div>
+    <div>
+        <i class="fas fa-film"></i>
+    </div>
+    <div>
+        <i class="fas fa-play-circle"></i>
+    </div>
+    <div>
+        <i class="fas fa-bookmark"></i>
+    </div>
+    <div>
+        <i class="fas fa-user-tag"></i>
+    </div>
+</div>
 
 <div>
     <!-- %로 지정된 값은 화면 크기에 따라 이미지의 크기가 바뀜
